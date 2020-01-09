@@ -1,0 +1,19 @@
+{
+  "name": "rr",
+  "version": "1.0.0",
+  "description": "remedy resource",
+  "main": "dist/index.js",
+  "scripts": {
+    "clean": "rm -rf ./dist",
+    "build": "tsc -p .",
+    "demo": "node dist/example/main.js"
+  },
+  "author": "Yaroslav Gaponov",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/ws": "^6.0.3",
+    "@types/node": "^12.7.5",
+    "typescript": "^3.6.3"
+  }
+}
